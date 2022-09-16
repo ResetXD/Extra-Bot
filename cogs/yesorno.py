@@ -1,8 +1,7 @@
-import nextcord,sys
+import nextcord
 from nextcord.ext import commands
 from random import choice, shuffle
-sys.path.insert(1, 'cogs\lib')
-import values as v
+import lib.values as v
 
 guilds=v.values.getData("guilds")
 embedColor=v.values.getData("color")
